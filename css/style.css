@@ -1,0 +1,73 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+body{font-size:16px;}
+/*头部*/
+.header{width:100%;overflow:hidden;}
+.header .top{width:1000px;height:80px;margin:auto;}
+.header .logo{float:left;height:50px;line-height:50px;margin-top:15px;font-size:20px;}
+.header .logo img{width:50px;height:50px;height:50px;float:left;margin-right:10px;border-radius:50%;}
+.header .search{float:right;height:42px;margin-top:19px;}
+.header .search .text{width:200px;height:40px;font-size:16px;float:left;text-indent:5px;border:1px solid #333;}
+.header .search .button{width:80px;height:42px;font-size:16px;color:#fff;cursor:pointer;background:#333;border:none;}
+.header .search .button:hover{background:#000;}
+.header .nav{width:1000px;height:50px;line-height:50px;margin:auto;background:#333;}
+.header .nav li{float:left;}
+.header .nav li a{display:block;width:120px;height:50px;text-align:center;color:#fff;}
+.header .nav li a:hover{background:#ff3808;}
+/*banner*/
+.banner{width:1000px;height:400px;margin:auto;}
+.banner img{width:100%;height:100%;}
+/*个人介绍*/
+.jianjie{width:1000px;margin:auto;margin-top:20px;overflow:hidden;}
+.jianjie .text{width:450px;float:left;}
+.jianjie .text .title{height:30px;line-height:30px;border-bottom:1px solid #ff3808;color:#ff3808;font-weight:bold;margin-bottom:10px;}
+.jianjie .text p{margin:auto;line-height:30px;}
+.jianjie .pic{width:500px;float:right;}
+.jianjie .pic .pic1{width:240px;height:360px;float:left;margin-right:20px;}
+.jianjie .pic .pic2{width:240px;height:240px;float:left;margin-bottom:20px;}
+.jianjie .pic .pic3{width:240px;height:100px;float:left;}
+/*底部*/
+.footer{width:1000px;height:50px;background:#333;margin:auto;margin-top:20px;}
+.footer p{line-height:50px;text-align:center;color:#fff;}
+/*我的大学*/
+.daxue{width:1000px;margin:auto;margin-top:20px;overflow:hidden;}
+.daxue .title{height:30px;line-height:30px;border-bottom:1px solid #ff3808;color:#ff3808;font-weight:bold;margin-bottom:10px;}
+.daxue p{text-indent:32px;line-height:2;}
+.daxue img{width:480px;height:240px;float:left;margin-left:10px;margin-right:10px;}
+/*我的家乡*/
+.jiaxiang{width:1000px;margin:auto;margin-top:20px;overflow:hidden;}
+.jiaxiang .title{height:30px;line-height:30px;border-bottom:1px solid #ff3808;color:#ff3808;font-weight:bold;margin-bottom:10px;}
+.jiaxiang p{text-indent:32px;line-height:2;}
+.jiaxiang img{width:240px;height:240px;float:left;margin-left:5px;margin-right:5px;}
+/*我的相册*/
+.xiangce{width:1000px;margin:auto;margin-top:20px;overflow:hidden;}
+.xiangce .title{height:30px;line-height:30px;border-bottom:1px solid #ff3808;color:#ff3808;font-weight:bold;margin-bottom:10px;}
+.xiangce li{width:480px;float:left;margin:10px;}
+.xiangce li img{width:480px;height:300px;}
+.xiangce li p{text-align:center;color:#ff3808;}
+/*音乐中心*/
+.yinyue{width:1000px;margin:auto;margin-top:20px;overflow:hidden;}
+.yinyue .title{height:30px;line-height:30px;border-bottom:1px solid #ff3808;color:#ff3808;font-weight:bold;margin-bottom:10px;}
+.yinyue li{overflow:hidden;margin-top:20px;}
+.yinyue li p{width:200px;line-height:40px;text-align:right;float:left;margin-right:20px;}
+.yinyue li audio{width:500px;}
+/*留言*/
+.liuyan{width:1000px;margin:auto;margin-top:20px;overflow:hidden;}
+.liuyan .title{height:30px;line-height:30px;border-bottom:1px solid #ff3808;color:#ff3808;font-weight:bold;margin-bottom:10px;}
+.liuyan p{overflow:hidden;margin-top:30px;}
+.liuyan p span{display:block;width:100px;height:40px;line-height:40px;text-align:right;float:left;}
+.liuyan p input{display:block;width:400px;height:38px;border:1px solid #ff3808;}
+.liuyan p textarea{display:block;width:400px;height:200px;border:1px solid #ff3808;resize:none;}
+.liuyan .btn{display:block;width:100px;height:40px;line-height:40px;margin-top:30px;border:1px solid #ff3808;margin-left:100px;background:#ff3808;
+	color:#fff;cursor:pointer;}
+
+
+
+
+
+
+
+
+
